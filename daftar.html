@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Transaksi - Punya ammar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #7E99A3;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            height: 50px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        nav li {
+            margin: 0 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2rem;
+        }
+        footer {
+            background: #7E99A3;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        table {
+            background-color: #A5BFCC;
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+        table th, table td {
+            border: none solid #A5BFCC;
+            padding: 0.75rem;
+            text-align: center;
+        }
+        table th {
+            background-color: #4C585B;
+            color: white;
+            font-weight: bold;
+        }
+        table a {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #824caf;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        table a:hover {
+            background-color: #4b28aa;
+        }
+        .back-button {
+        display: inline-block;
+        margin-top: 1rem;
+        padding: 0.75rem 1.5rem;
+        background-color: #5b76ec; /* Warna hijau */
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        font-weight: bold;
+        text-align: center;
+        transition: background-color 0.3s ease;
+    }
+    .back-button:hover {
+        background-color: #45a049
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Universitas Pamulang">
+        <h1>PERPUSTAKAAN</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="transaksi3.html">Transaksi</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="log-in.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Daftar Transaksi</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Transaksi</th>
+                    <th>Jumlah</th>
+                    <th>Kategori</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pembelian Buku - JavaScript</td>
+                    <td>150000</td>
+                    <td>Pemasukan</td>
+                </tr>
+                <tr>
+                    <td>Peminjaman Buku - ReactJS</td>
+                    <td>50000</td>
+                    <td>Pengeluaran</td>
+                </tr>
+                <tr>
+                    <td>Penjualan Buku - CSS untuk Pemula</td>
+                    <td>120000</td>
+                    <td>Pemasukan</td>
+                </tr>
+                <tr>
+                    <td>Peminjaman Buku - HTML dan CSS</td>
+                    <td>30000</td>
+                    <td>Pengeluaran</td>
+                </tr>
+            </tbody>
+        </table>
+        <a href="transaksi3.html" class="back-button">Kembali ke Form Transaksi</a>
+    </div>
+    <footer>
+        <p>&copy; 2024 - Berbagi Untuk Negeri.</p>
+    </footer>
+</body>
+</html>

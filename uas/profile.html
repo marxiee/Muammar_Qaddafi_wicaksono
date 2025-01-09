@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punya ammar</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #7E99A3;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        header img {
+            height: 50px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        nav li {
+            margin: 0 1rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            padding: 1.5rem;
+            flex: 1 1 calc(30% - 2rem);
+            box-sizing: border-box;
+        }
+        footer {
+            background: #7E99A3;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+        .card p {
+            text-align: justify;
+        }
+        @media (max-width: 768px) {
+            .card {
+                flex: 1 1 calc(45% - 2rem);
+            }
+        }
+        @media (max-width: 480px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            nav li {
+                margin: 0.5rem 0;
+            }
+            .card {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo Universitas Pamulang">
+        <h1>PERPUSTAKAAN KOALA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="transaksi3.html">Transaksi</a></li>
+                <li><a href="profile.html">Profil</a></li>
+                <li><a href="log-in.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+      <div class="card">
+        <h3>Fitur Utama</h3>
+        <ul>
+          <li><strong>Pemasukan Buku</strong>: Mendata buku yang masuk dalam Perpustakaan Koala</li>
+          <li><strong>Pengeluaran Buku</strong>: Mendata buku yang keluar dalam Perpustakaan Koala</li>
+          <li><strong>Transaksi Online</strong>: Melakukan transaksi peminjaman dan pengembalian buku langsung melalui website.</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Tentang Kami</h3>
+        <p>Website perpustakaan ini bertujuan untuk memberikan pengalaman terbaik dalam mendata dan meminjam buku secara online. Kami menyediakan berbagai koleksi buku yang dapat diakses oleh pengguna dari berbagai usia dan minat. Kami berharap website ini dapat mendukung perkembangan pengetahuan dan budaya membaca di masyarakat.</p>
+      </div>
+      <div class="card">
+        <h3>Visi dan Misi</h3>
+        <p><strong>Visi</strong>: Menjadi perpustakaan digital terkemuka yang memberikan akses buku yang luas dan berkualitas untuk masyarakat.</p>
+        <p><strong>Misi</strong>: Menyediakan platform yang mudah diakses untuk peminjaman buku secara online dan mendukung budaya membaca di kalangan pengguna.</p>
+      </div>
+      <div class="card">
+        <h3>Kontak Kami</h3>
+        <p>Jika Anda memiliki pertanyaan atau masukan, jangan ragu untuk menghubungi kami melalui email: <a href="mailto:info@perpus.com">info@perpus.com</a>.</p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Universitas Pamulang. Berbagi Untuk Negeri</p>
+    </footer>
+  </body>
+</html>
